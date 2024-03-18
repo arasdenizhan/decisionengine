@@ -4,6 +4,6 @@ WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY ./front-end/decision-app/package.json .
 COPY ./front-end/decision-app/package-lock.json .
-RUN npm install -g npm@10.5.0
-COPY ./front-end .
+RUN npm ci
+COPY ./front-end/decision-app .
 ENTRYPOINT ["npm","start"]
