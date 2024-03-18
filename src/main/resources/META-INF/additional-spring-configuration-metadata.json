@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "decision.min.amount",
+      "type": "java.math.BigDecimal",
+      "description": "Description for decision.min.amount."
+    },
+    {
+      "name": "decision.min.period",
+      "type": "java.lang.Integer",
+      "description": "Description for decision.min.period."
+    },
+    {
+      "name": "decision.max.amount",
+      "type": "java.math.BigDecimal",
+      "description": "Description for decision.max.amount."
+    },
+    {
+      "name": "decision.max.period",
+      "type": "java.lang.Integer",
+      "description": "Description for decision.max.period."
+    }
+  ] }

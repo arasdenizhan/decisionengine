@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  decision-back-end:
+    build:
+      context: ./
+      dockerfile: back-end.dockerfile
+    ports:
+      - "8080:8080"
+
+  decision-front-end:
+    build:
+      context: ./
+      dockerfile: front-end.dockerfile
+    ports:
+      - "3000:3000"
