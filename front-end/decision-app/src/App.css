@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.App-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.response-status {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.response-status.positive {
+    color: green;
+}
+
+.response-status.negative {
+    color: red;
+}
+
+.response-value {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
